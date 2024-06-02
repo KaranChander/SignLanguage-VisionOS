@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A01B3B3D2C0BFB4900150C96 /* ASLClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = A01B3B3C2C0BFB4900150C96 /* ASLClassifier.mlmodel */; };
+		A01B3B3F2C0BFD1200150C96 /* VideoProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01B3B3E2C0BFD1200150C96 /* VideoProcessor.swift */; };
+		A01B3B412C0C028200150C96 /* sign_language_video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A01B3B402C0C028200150C96 /* sign_language_video.mp4 */; };
 		A0D338902C0B9B54009E9595 /* ASL_VisionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D3388F2C0B9B54009E9595 /* ASL_VisionApp.swift */; };
 		A0D338922C0B9B54009E9595 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D338912C0B9B54009E9595 /* ContentView.swift */; };
 		A0D338942C0B9B56009E9595 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0D338932C0B9B56009E9595 /* Assets.xcassets */; };
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A01B3B3C2C0BFB4900150C96 /* ASLClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = ASLClassifier.mlmodel; sourceTree = "<group>"; };
+		A01B3B3E2C0BFD1200150C96 /* VideoProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoProcessor.swift; sourceTree = "<group>"; };
+		A01B3B402C0C028200150C96 /* sign_language_video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = sign_language_video.mp4; sourceTree = "<group>"; };
 		A0D3388C2C0B9B54009E9595 /* ASL-Vision.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ASL-Vision.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0D3388F2C0B9B54009E9595 /* ASL_VisionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASL_VisionApp.swift; sourceTree = "<group>"; };
 		A0D338912C0B9B54009E9595 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -72,6 +78,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A01B3B422C0CDB2200150C96 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				A0D338932C0B9B56009E9595 /* Assets.xcassets */,
+				A01B3B402C0C028200150C96 /* sign_language_video.mp4 */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		A01B3B432C0CDB2C00150C96 /* ML Model */ = {
+			isa = PBXGroup;
+			children = (
+				A01B3B3C2C0BFB4900150C96 /* ASLClassifier.mlmodel */,
+			);
+			path = "ML Model";
+			sourceTree = "<group>";
+		};
 		A0D338832C0B9B54009E9595 = {
 			isa = PBXGroup;
 			children = (
@@ -95,9 +118,11 @@
 		A0D3388E2C0B9B54009E9595 /* ASL-Vision */ = {
 			isa = PBXGroup;
 			children = (
+				A01B3B432C0CDB2C00150C96 /* ML Model */,
 				A0D3388F2C0B9B54009E9595 /* ASL_VisionApp.swift */,
 				A0D338912C0B9B54009E9595 /* ContentView.swift */,
-				A0D338932C0B9B56009E9595 /* Assets.xcassets */,
+				A01B3B3E2C0BFD1200150C96 /* VideoProcessor.swift */,
+				A01B3B422C0CDB2200150C96 /* Assets */,
 				A0D338952C0B9B56009E9595 /* ASL_Vision.entitlements */,
 				A0D338962C0B9B56009E9595 /* Preview Content */,
 			);
@@ -235,6 +260,7 @@
 			files = (
 				A0D338982C0B9B56009E9595 /* Preview Assets.xcassets in Resources */,
 				A0D338942C0B9B56009E9595 /* Assets.xcassets in Resources */,
+				A01B3B412C0C028200150C96 /* sign_language_video.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +286,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0D338922C0B9B54009E9595 /* ContentView.swift in Sources */,
+				A01B3B3D2C0BFB4900150C96 /* ASLClassifier.mlmodel in Sources */,
+				A01B3B3F2C0BFD1200150C96 /* VideoProcessor.swift in Sources */,
 				A0D338902C0B9B54009E9595 /* ASL_VisionApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
