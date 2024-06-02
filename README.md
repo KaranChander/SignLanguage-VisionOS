@@ -42,3 +42,5 @@ This project demonstrates a real-time sign language detection application using 
 
 ![Demo of Sign Language Detection](ASL-Vision/Assets/Visiongif.gif)
 
+## Future Update
+Train ML Model to understand sentences
